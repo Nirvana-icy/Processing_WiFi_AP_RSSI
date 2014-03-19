@@ -4,7 +4,7 @@ String[] valueOfRSSIFromCsv;
 
 void setup()
 {
-//  size(1280, 1024);
+  size(1280, 1024);
   background(0,0,0); 
   valueOfRSSIFromCsv = loadStrings("input.csv"); 
 //  frameRate(1);
